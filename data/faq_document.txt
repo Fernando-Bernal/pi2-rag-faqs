@@ -1,0 +1,112 @@
+PREGUNTAS FRECUENTES - PLATAFORMA HR SAAS "NEXHR"
+
+Este documento reúne las preguntas frecuentes (FAQs) de NexHR, una plataforma de gestión de recursos humanos utilizada por empresas medianas y grandes para administrar empleados, nómina, licencias, beneficios, permisos de acceso e integraciones. El objetivo de este documento es servir como base de conocimiento para el equipo de soporte al cliente y para el chatbot automático de FAQs, de modo que los usuarios puedan resolver sus dudas más comunes sin necesidad de escalar a un agente humano.
+
+SECCIÓN 1: CREACIÓN DE CUENTA Y ONBOARDING
+
+¿Cómo creo una cuenta de administrador en NexHR?
+Para crear una cuenta de administrador, el responsable de Recursos Humanos de la empresa debe registrarse desde la página de inicio con el correo corporativo del dominio verificado. Una vez completado el registro, se recibe un correo de confirmación con un enlace de activación válido por 48 horas. Después de activar la cuenta, el sistema solicita configurar la estructura organizacional básica: nombre legal de la empresa, país de operación, moneda de facturación y zona horaria principal.
+
+¿Cómo se invita a nuevos empleados a la plataforma?
+Los administradores pueden invitar empleados de tres formas: carga individual desde el panel de "Personas", carga masiva mediante una plantilla CSV descargable, o sincronización automática con un proveedor de identidad como Google Workspace o Microsoft Entra ID. Cada empleado invitado recibe un correo con instrucciones para configurar su contraseña y activar la autenticación de dos factores, que es obligatoria para todos los roles administrativos.
+
+¿Qué información se necesita para completar el perfil de un empleado?
+El perfil completo de un empleado requiere: nombre legal, fecha de nacimiento, número de identificación fiscal, dirección de residencia, datos bancarios para el pago de nómina, contacto de emergencia y la fecha de ingreso a la empresa. Sin estos datos, el sistema no permite incluir al empleado en la corrida de nómina del mes.
+
+¿Cuánto tiempo toma el proceso de onboarding completo?
+En promedio, el onboarding completo de una empresa con menos de 200 empleados toma entre 3 y 5 días hábiles, incluyendo la configuración de políticas de licencias, estructura de departamentos, roles de aprobación y la primera corrida de nómina de prueba en modo sandbox.
+
+SECCIÓN 2: NÓMINA Y PAGOS
+
+¿Con qué frecuencia se procesa la nómina?
+NexHR permite configurar la frecuencia de pago según la política de cada empresa: mensual, quincenal o semanal. La fecha de corte para cargar novedades (horas extra, bonos, deducciones) es por defecto tres días hábiles antes de la fecha de pago, aunque este parámetro es configurable por el administrador de nómina.
+
+¿Cómo se calculan las deducciones de impuestos?
+Las deducciones de impuestos se calculan automáticamente según la tabla fiscal vigente del país configurado en la cuenta de la empresa. El sistema actualiza estas tablas de forma trimestral, pero el equipo de Compliance recomienda validar los porcentajes con un contador local antes de la primera corrida de nómina, ya que las normativas pueden variar por provincia o estado.
+
+¿Qué pasa si un empleado tiene un error en su pago?
+Si un empleado detecta un error en su recibo de pago, debe reportarlo dentro de los 5 días hábiles posteriores al pago mediante el módulo de "Disputas de Nómina". El administrador recibe la disputa, revisa el detalle del cálculo y puede generar un ajuste que se refleja automáticamente en la siguiente corrida o como un pago extraordinario, según la urgencia del caso.
+
+¿Se pueden pagar bonos o comisiones fuera de la nómina regular?
+Sí. NexHR permite crear "corridas especiales" para pagos únicos como bonos de desempeño, comisiones de ventas o liquidaciones finales. Estas corridas especiales pasan por el mismo flujo de aprobación que la nómina regular, pero no afectan la fecha de corte del ciclo mensual.
+
+¿Cómo se generan los recibos de sueldo?
+Los recibos de sueldo se generan automáticamente al finalizar cada corrida de nómina y quedan disponibles en el portal del empleado en formato PDF firmado digitalmente. Los empleados reciben una notificación por correo y por la aplicación móvil cuando su recibo está listo para descargar.
+
+SECCIÓN 3: LICENCIAS Y VACACIONES
+
+¿Cómo solicito una licencia por vacaciones?
+Un empleado puede solicitar vacaciones desde la sección "Mis Licencias" seleccionando el rango de fechas deseado. El sistema muestra automáticamente los días disponibles según la antigüedad y la política vigente. La solicitud se envía al aprobador configurado, normalmente el supervisor directo, quien recibe una notificación para aprobar o rechazar dentro de las 48 horas.
+
+¿Cuántos días de vacaciones corresponden por ley?
+La cantidad de días de vacaciones depende de la legislación laboral del país y de la antigüedad del empleado. NexHR calcula automáticamente el saldo disponible en base a las reglas configuradas por el administrador, que deben respetar los mínimos legales locales. Es responsabilidad de la empresa configurar correctamente estas reglas al momento del onboarding.
+
+¿Qué tipos de licencia además de vacaciones soporta la plataforma?
+Además de vacaciones, la plataforma soporta licencias por enfermedad, licencia por maternidad y paternidad, licencia por duelo, licencia por matrimonio, permisos administrativos sin goce de sueldo y licencias especiales configurables por cada empresa según sus propias políticas internas.
+
+¿Qué pasa si una licencia es rechazada?
+Si un aprobador rechaza una solicitud de licencia, el empleado recibe una notificación con el motivo del rechazo, si el aprobador decidió incluirlo, y puede volver a enviar la solicitud con fechas alternativas. El historial completo de solicitudes, aprobaciones y rechazos queda auditado y visible para el equipo de Recursos Humanos.
+
+¿Se pueden acumular días de vacaciones no utilizados?
+Depende de la política configurada por cada empresa. Algunas organizaciones permiten acumular hasta un máximo de días para el año siguiente, mientras que otras aplican la política de "úsalo o piérdelo" al cierre del período fiscal. El administrador puede configurar límites de acumulación y fechas de vencimiento por tipo de licencia.
+
+SECCIÓN 4: BENEFICIOS Y COMPENSACIONES
+
+¿Qué beneficios se pueden gestionar desde NexHR?
+La plataforma permite administrar seguro médico, seguro de vida, planes de retiro, vales de comida, subsidios de transporte, membresías de gimnasio y programas de bienestar corporativo. Cada beneficio puede configurarse con reglas de elegibilidad según antigüedad, tipo de contrato o nivel jerárquico del empleado.
+
+¿Cómo se inscriben los empleados a un beneficio?
+Durante el período de inscripción abierta, que normalmente ocurre una vez al año, los empleados reciben una notificación para revisar y seleccionar sus beneficios desde el portal de autoservicio. Fuera de ese período, solo se permite inscripción por eventos de vida calificados, como matrimonio, nacimiento de un hijo o cambio de estado civil.
+
+¿Los beneficios afectan el cálculo de la nómina?
+Sí, los beneficios con costo compartido entre empresa y empleado generan deducciones automáticas en el recibo de sueldo. El sistema calcula estas deducciones según el plan seleccionado y las refleja de forma separada en el detalle del recibo para mantener la transparencia del cálculo.
+
+SECCIÓN 5: ROLES, PERMISOS Y SEGURIDAD
+
+¿Qué roles de usuario existen en la plataforma?
+NexHR define cuatro roles principales: Administrador general, con acceso completo a configuración y datos sensibles; Administrador de nómina, con acceso a los módulos de pagos y compensaciones; Supervisor, con acceso a los datos de su equipo directo para aprobar licencias y ver reportes; y Empleado, con acceso únicamente a su propio perfil y autoservicio.
+
+¿Cómo se protege la información sensible de los empleados?
+Toda la información sensible, como datos bancarios y números de identificación fiscal, se almacena cifrada tanto en tránsito como en reposo, utilizando estándares de la industria. El acceso a estos datos queda restringido por rol y cada consulta o modificación se registra en un log de auditoría inmutable.
+
+¿Es posible activar la autenticación de dos factores para todos los empleados?
+Sí, los administradores pueden hacer obligatoria la autenticación de dos factores para todos los usuarios de la cuenta, no solo para los roles administrativos. Se recomienda activarla especialmente para empresas que gestionan datos de nómina de más de 500 empleados.
+
+¿Qué certificaciones de seguridad tiene NexHR?
+NexHR cuenta con certificación SOC 2 Tipo II y cumple con los principios de protección de datos equivalentes al RGPD europeo para las operaciones en la región. La empresa realiza auditorías de seguridad externas de forma anual y publica un resumen de resultados a los clientes que lo solicitan.
+
+SECCIÓN 6: INTEGRACIONES Y API
+
+¿Con qué otras herramientas se integra NexHR?
+La plataforma ofrece integraciones nativas con proveedores de identidad como Google Workspace y Microsoft Entra ID, herramientas de comunicación como Slack y Microsoft Teams, y sistemas contables como QuickBooks y SAP. También expone una API REST documentada para integraciones personalizadas.
+
+¿Cómo obtengo credenciales para la API?
+Las credenciales de API se generan desde el panel de "Configuración > Desarrolladores", disponible únicamente para el rol de Administrador general. Cada credencial puede limitarse a permisos de solo lectura o lectura y escritura, y puede revocarse en cualquier momento sin afectar otras integraciones activas.
+
+¿Existen límites de uso en la API?
+Sí, la API tiene un límite de 600 solicitudes por minuto por cuenta en el plan estándar, y de 2000 solicitudes por minuto en el plan empresarial. Al superar el límite, la API responde con un código de error 429 y un encabezado que indica cuándo se puede reintentar la solicitud.
+
+SECCIÓN 7: PLANES, FACTURACIÓN Y SOPORTE
+
+¿Qué planes de suscripción ofrece NexHR?
+NexHR ofrece tres planes principales: Starter, pensado para empresas de hasta 50 empleados con funcionalidades básicas de nómina y licencias; Business, que incluye gestión de beneficios y API con límites ampliados; y Enterprise, que agrega soporte prioritario, integraciones personalizadas y un gestor de cuenta dedicado.
+
+¿Cómo se factura el servicio?
+La facturación se realiza mensualmente según la cantidad de empleados activos en la plataforma durante ese período. Los empleados dados de baja durante el mes se prorratean automáticamente en la factura siguiente. Las empresas pueden cambiar de plan en cualquier momento sin penalidad.
+
+¿Qué canales de soporte existen?
+El soporte estándar está disponible por correo electrónico y chat en horario laboral, con un tiempo de respuesta objetivo de 4 horas hábiles. Los clientes del plan Enterprise cuentan además con línea telefónica directa y un tiempo de respuesta objetivo de 1 hora para incidentes críticos.
+
+¿Cómo se reporta un incidente crítico?
+Un incidente se considera crítico cuando afecta el procesamiento de nómina o el acceso general a la plataforma. Estos casos deben reportarse marcando la prioridad "Crítica" en el portal de soporte, lo que activa automáticamente el protocolo de escalamiento al equipo de ingeniería de guardia.
+
+SECCIÓN 8: REPORTES Y ANALÍTICA
+
+¿Qué reportes están disponibles por defecto?
+La plataforma incluye reportes predefinidos de headcount por departamento, rotación de personal, costos de nómina por período, uso de licencias y cumplimiento de onboarding. Todos los reportes pueden exportarse en formato CSV o PDF y programarse para envío automático por correo.
+
+¿Se pueden crear reportes personalizados?
+Sí, el módulo de "Analítica Avanzada", disponible en los planes Business y Enterprise, permite construir reportes personalizados combinando cualquier campo del perfil del empleado, la nómina y las licencias, con filtros y agrupaciones configurables por el propio usuario sin necesidad de conocimientos técnicos.
+
+¿Con qué frecuencia se actualizan los datos de los reportes?
+Los datos de los reportes se actualizan en tiempo casi real para módulos como licencias y headcount, mientras que los reportes de costos de nómina se consolidan al cierre de cada corrida, generalmente dentro de las 24 horas posteriores al pago.

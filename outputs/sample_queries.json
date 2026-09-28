@@ -1,0 +1,132 @@
+[
+  {
+    "user_question": "¿Cómo solicito una licencia por vacaciones?",
+    "system_answer": "Puedes solicitar vacaciones desde la sección \"Mis Licencias\" en el portal del empleado, seleccionando el rango de fechas deseado. El sistema mostrará tus días disponibles y la solicitud se enviará a tu supervisor directo para su aprobación o rechazo dentro de las 48 horas.",
+    "chunks_related": [
+      {
+        "chunk_id": 8,
+        "text": "disponibles en el portal del empleado en formato PDF firmado digitalmente. Los empleados reciben una notificación por correo y por la aplicación móvil cuando su recibo está listo para descargar.\n\nSECCIÓN 3: LICENCIAS Y VACACIONES\n\n¿Cómo solicito una licencia por vacaciones?\nUn empleado puede solicitar vacaciones desde la sección \"Mis Licencias\" seleccionando el rango de fechas deseado. El sistema muestra automáticamente los días disponibles según la antigüedad y la política vigente. La solicitud se envía al aprobador configurado, normalmente el supervisor directo, quien recibe una notificación para aprobar o rechazar dentro de las 48 horas.",
+        "score": 0.6911678314208984
+      },
+      {
+        "chunk_id": 10,
+        "text": "encia por duelo, licencia por matrimonio, permisos administrativos sin goce de sueldo y licencias especiales configurables por cada empresa según sus propias políticas internas.\n\n¿Qué pasa si una licencia es rechazada?\nSi un aprobador rechaza una solicitud de licencia, el empleado recibe una notificación con el motivo del rechazo, si el aprobador decidió incluirlo, y puede volver a enviar la solicitud con fechas alternativas. El historial completo de solicitudes, aprobaciones y rechazos queda auditado y visible para el equipo de Recursos Humanos.",
+        "score": 0.6676833629608154
+      },
+      {
+        "chunk_id": 9,
+        "text": ". La solicitud se envía al aprobador configurado, normalmente el supervisor directo, quien recibe una notificación para aprobar o rechazar dentro de las 48 horas.\n\n¿Cuántos días de vacaciones corresponden por ley?\nLa cantidad de días de vacaciones depende de la legislación laboral del país y de la antigüedad del empleado. NexHR calcula automáticamente el saldo disponible en base a las reglas configuradas por el administrador, que deben respetar los mínimos legales locales. Es responsabilidad de la empresa configurar correctamente estas reglas al momento del onboarding.\n\n¿Qué tipos de licencia además de vacaciones soporta la plataforma?\nAdemás de vacaciones, la plataforma soporta licencias por enfermedad, licencia por maternidad y paternidad, licencia por duelo, licencia por matrimonio, permisos administrativos sin goce de sueldo y licencias especiales configurables por cada empresa según sus propias políticas internas.",
+        "score": 0.6017032861709595
+      },
+      {
+        "chunk_id": 11,
+        "text": "a enviar la solicitud con fechas alternativas. El historial completo de solicitudes, aprobaciones y rechazos queda auditado y visible para el equipo de Recursos Humanos.\n\n¿Se pueden acumular días de vacaciones no utilizados?\nDepende de la política configurada por cada empresa. Algunas organizaciones permiten acumular hasta un máximo de días para el año siguiente, mientras que otras aplican la política de \"úsalo o piérdelo\" al cierre del período fiscal. El administrador puede configurar límites de acumulación y fechas de vencimiento por tipo de licencia.\n\nSECCIÓN 4: BENEFICIOS Y COMPENSACIONES",
+        "score": 0.5316921472549438
+      }
+    ]
+  },
+  {
+    "user_question": "¿NexHR tiene certificación de seguridad SOC 2?",
+    "system_answer": "Sí, NexHR cuenta con certificación SOC 2 Tipo II. Además, cumple con los principios de protección de datos equivalentes al RGPD europeo para las operaciones en la región.",
+    "chunks_related": [
+      {
+        "chunk_id": 1,
+        "text": "modo que los usuarios puedan resolver sus dudas más comunes sin necesidad de escalar a un agente humano.\n\nSECCIÓN 1: CREACIÓN DE CUENTA Y ONBOARDING\n\n¿Cómo creo una cuenta de administrador en NexHR?\nPara crear una cuenta de administrador, el responsable de Recursos Humanos de la empresa debe registrarse desde la página de inicio con el correo corporativo del dominio verificado. Una vez completado el registro, se recibe un correo de confirmación con un enlace de activación válido por 48 horas. Después de activar la cuenta, el sistema solicita configurar la estructura organizacional básica: nombre legal de la empresa, país de operación, moneda de facturación y zona horaria principal.",
+        "score": 0.5826535820960999
+      },
+      {
+        "chunk_id": 16,
+        "text": "todos los usuarios de la cuenta, no solo para los roles administrativos. Se recomienda activarla especialmente para empresas que gestionan datos de nómina de más de 500 empleados.\n\n¿Qué certificaciones de seguridad tiene NexHR?\nNexHR cuenta con certificación SOC 2 Tipo II y cumple con los principios de protección de datos equivalentes al RGPD europeo para las operaciones en la región. La empresa realiza auditorías de seguridad externas de forma anual y publica un resumen de resultados a los clientes que lo solicitan.\n\nSECCIÓN 6: INTEGRACIONES Y API\n\n¿Con qué otras herramientas se integra NexHR?\nLa plataforma ofrece integraciones nativas con proveedores de identidad como Google Workspace y Microsoft Entra ID, herramientas de comunicación como Slack y Microsoft Teams, y sistemas contables como QuickBooks y SAP. También expone una API REST documentada para integraciones personalizadas.",
+        "score": 0.5741705894470215
+      },
+      {
+        "chunk_id": 0,
+        "text": "PREGUNTAS FRECUENTES - PLATAFORMA HR SAAS \"NEXHR\"\n\nEste documento reúne las preguntas frecuentes (FAQs) de NexHR, una plataforma de gestión de recursos humanos utilizada por empresas medianas y grandes para administrar empleados, nómina, licencias, beneficios, permisos de acceso e integraciones. El objetivo de este documento es servir como base de conocimiento para el equipo de soporte al cliente y para el chatbot automático de FAQs, de modo que los usuarios puedan resolver sus dudas más comunes sin necesidad de escalar a un agente humano.\n\nSECCIÓN 1: CREACIÓN DE CUENTA Y ONBOARDING",
+        "score": 0.5397515892982483
+      },
+      {
+        "chunk_id": 13,
+        "text": "portal de autoservicio. Fuera de ese período, solo se permite inscripción por eventos de vida calificados, como matrimonio, nacimiento de un hijo o cambio de estado civil.\n\n¿Los beneficios afectan el cálculo de la nómina?\nSí, los beneficios con costo compartido entre empresa y empleado generan deducciones automáticas en el recibo de sueldo. El sistema calcula estas deducciones según el plan seleccionado y las refleja de forma separada en el detalle del recibo para mantener la transparencia del cálculo.\n\nSECCIÓN 5: ROLES, PERMISOS Y SEGURIDAD",
+        "score": 0.5386037230491638
+      }
+    ]
+  },
+  {
+    "user_question": "¿Qué pasa si un empleado tiene un error en su pago?",
+    "system_answer": "Si un empleado detecta un error en su recibo de pago, debe reportarlo dentro de los 5 días hábiles posteriores al pago mediante el módulo de \"Disputas de Nómina\". El administrador revisará el detalle del cálculo y podrá generar un ajuste que se reflejará automáticamente en la siguiente corrida o como un pago extraordinario, según la urgencia del caso.",
+    "chunks_related": [
+      {
+        "chunk_id": 6,
+        "text": "pero el equipo de Compliance recomienda validar los porcentajes con un contador local antes de la primera corrida de nómina, ya que las normativas pueden variar por provincia o estado.\n\n¿Qué pasa si un empleado tiene un error en su pago?\nSi un empleado detecta un error en su recibo de pago, debe reportarlo dentro de los 5 días hábiles posteriores al pago mediante el módulo de \"Disputas de Nómina\". El administrador recibe la disputa, revisa el detalle del cálculo y puede generar un ajuste que se refleja automáticamente en la siguiente corrida o como un pago extraordinario, según la urgencia del caso.",
+        "score": 0.6382818222045898
+      },
+      {
+        "chunk_id": 5,
+        "text": ", bonos, deducciones) es por defecto tres días hábiles antes de la fecha de pago, aunque este parámetro es configurable por el administrador de nómina.\n\n¿Cómo se calculan las deducciones de impuestos?\nLas deducciones de impuestos se calculan automáticamente según la tabla fiscal vigente del país configurado en la cuenta de la empresa. El sistema actualiza estas tablas de forma trimestral, pero el equipo de Compliance recomienda validar los porcentajes con un contador local antes de la primera corrida de nómina, ya que las normativas pueden variar por provincia o estado.",
+        "score": 0.5106445550918579
+      },
+      {
+        "chunk_id": 3,
+        "text": "ada empleado invitado recibe un correo con instrucciones para configurar su contraseña y activar la autenticación de dos factores, que es obligatoria para todos los roles administrativos.\n\n¿Qué información se necesita para completar el perfil de un empleado?\nEl perfil completo de un empleado requiere: nombre legal, fecha de nacimiento, número de identificación fiscal, dirección de residencia, datos bancarios para el pago de nómina, contacto de emergencia y la fecha de ingreso a la empresa. Sin estos datos, el sistema no permite incluir al empleado en la corrida de nómina del mes.\n\n¿Cuánto tiempo toma el proceso de onboarding completo?\nEn promedio, el onboarding completo de una empresa con menos de 200 empleados toma entre 3 y 5 días hábiles, incluyendo la configuración de políticas de licencias, estructura de departamentos, roles de aprobación y la primera corrida de nómina de prueba en modo sandbox.",
+        "score": 0.4812485873699188
+      },
+      {
+        "chunk_id": 21,
+        "text": "combinando cualquier campo del perfil del empleado, la nómina y las licencias, con filtros y agrupaciones configurables por el propio usuario sin necesidad de conocimientos técnicos.\n\n¿Con qué frecuencia se actualizan los datos de los reportes?\nLos datos de los reportes se actualizan en tiempo casi real para módulos como licencias y headcount, mientras que los reportes de costos de nómina se consolidan al cierre de cada corrida, generalmente dentro de las 24 horas posteriores al pago.",
+        "score": 0.47090184688568115
+      }
+    ]
+  },
+  {
+    "user_question": "¿Cuáles son los límites de uso de la API?",
+    "system_answer": "La API de NexHR tiene un límite de 600 solicitudes por minuto por cuenta en el plan estándar y de 2000 solicitudes por minuto en el plan empresarial. Si se supera este límite, la API responde con un código de error 429 y proporciona un encabezado que indica cuándo se puede reintentar la solicitud.",
+    "chunks_related": [
+      {
+        "chunk_id": 17,
+        "text": "Entra ID, herramientas de comunicación como Slack y Microsoft Teams, y sistemas contables como QuickBooks y SAP. También expone una API REST documentada para integraciones personalizadas.\n\n¿Cómo obtengo credenciales para la API?\nLas credenciales de API se generan desde el panel de \"Configuración > Desarrolladores\", disponible únicamente para el rol de Administrador general. Cada credencial puede limitarse a permisos de solo lectura o lectura y escritura, y puede revocarse en cualquier momento sin afectar otras integraciones activas.\n\n¿Existen límites de uso en la API?\nSí, la API tiene un límite de 600 solicitudes por minuto por cuenta en el plan estándar, y de 2000 solicitudes por minuto en el plan empresarial. Al superar el límite, la API responde con un código de error 429 y un encabezado que indica cuándo se puede reintentar la solicitud.",
+        "score": 0.653809666633606
+      },
+      {
+        "chunk_id": 18,
+        "text": "plan empresarial. Al superar el límite, la API responde con un código de error 429 y un encabezado que indica cuándo se puede reintentar la solicitud.\n\nSECCIÓN 7: PLANES, FACTURACIÓN Y SOPORTE\n\n¿Qué planes de suscripción ofrece NexHR?\nNexHR ofrece tres planes principales: Starter, pensado para empresas de hasta 50 empleados con funcionalidades básicas de nómina y licencias; Business, que incluye gestión de beneficios y API con límites ampliados; y Enterprise, que agrega soporte prioritario, integraciones personalizadas y un gestor de cuenta dedicado.\n\n¿Cómo se factura el servicio?\nLa facturación se realiza mensualmente según la cantidad de empleados activos en la plataforma durante ese período. Los empleados dados de baja durante el mes se prorratean automáticamente en la factura siguiente. Las empresas pueden cambiar de plan en cualquier momento sin penalidad.",
+        "score": 0.594044029712677
+      },
+      {
+        "chunk_id": 16,
+        "text": "todos los usuarios de la cuenta, no solo para los roles administrativos. Se recomienda activarla especialmente para empresas que gestionan datos de nómina de más de 500 empleados.\n\n¿Qué certificaciones de seguridad tiene NexHR?\nNexHR cuenta con certificación SOC 2 Tipo II y cumple con los principios de protección de datos equivalentes al RGPD europeo para las operaciones en la región. La empresa realiza auditorías de seguridad externas de forma anual y publica un resumen de resultados a los clientes que lo solicitan.\n\nSECCIÓN 6: INTEGRACIONES Y API\n\n¿Con qué otras herramientas se integra NexHR?\nLa plataforma ofrece integraciones nativas con proveedores de identidad como Google Workspace y Microsoft Entra ID, herramientas de comunicación como Slack y Microsoft Teams, y sistemas contables como QuickBooks y SAP. También expone una API REST documentada para integraciones personalizadas.",
+        "score": 0.4707641303539276
+      },
+      {
+        "chunk_id": 11,
+        "text": "a enviar la solicitud con fechas alternativas. El historial completo de solicitudes, aprobaciones y rechazos queda auditado y visible para el equipo de Recursos Humanos.\n\n¿Se pueden acumular días de vacaciones no utilizados?\nDepende de la política configurada por cada empresa. Algunas organizaciones permiten acumular hasta un máximo de días para el año siguiente, mientras que otras aplican la política de \"úsalo o piérdelo\" al cierre del período fiscal. El administrador puede configurar límites de acumulación y fechas de vencimiento por tipo de licencia.\n\nSECCIÓN 4: BENEFICIOS Y COMPENSACIONES",
+        "score": 0.45787307620048523
+      }
+    ]
+  },
+  {
+    "user_question": "¿Qué beneficios se pueden gestionar desde la plataforma?",
+    "system_answer": "Desde la plataforma NexHR se pueden gestionar beneficios como seguro médico, seguro de vida, planes de retiro, vales de comida, subsidios de transporte, membresías de gimnasio y programas de bienestar corporativo. Cada beneficio puede configurarse con reglas de elegibilidad según antigüedad, tipo de contrato o nivel jerárquico del empleado.",
+    "chunks_related": [
+      {
+        "chunk_id": 9,
+        "text": ". La solicitud se envía al aprobador configurado, normalmente el supervisor directo, quien recibe una notificación para aprobar o rechazar dentro de las 48 horas.\n\n¿Cuántos días de vacaciones corresponden por ley?\nLa cantidad de días de vacaciones depende de la legislación laboral del país y de la antigüedad del empleado. NexHR calcula automáticamente el saldo disponible en base a las reglas configuradas por el administrador, que deben respetar los mínimos legales locales. Es responsabilidad de la empresa configurar correctamente estas reglas al momento del onboarding.\n\n¿Qué tipos de licencia además de vacaciones soporta la plataforma?\nAdemás de vacaciones, la plataforma soporta licencias por enfermedad, licencia por maternidad y paternidad, licencia por duelo, licencia por matrimonio, permisos administrativos sin goce de sueldo y licencias especiales configurables por cada empresa según sus propias políticas internas.",
+        "score": 0.5649388432502747
+      },
+      {
+        "chunk_id": 12,
+        "text": "El administrador puede configurar límites de acumulación y fechas de vencimiento por tipo de licencia.\n\nSECCIÓN 4: BENEFICIOS Y COMPENSACIONES\n\n¿Qué beneficios se pueden gestionar desde NexHR?\nLa plataforma permite administrar seguro médico, seguro de vida, planes de retiro, vales de comida, subsidios de transporte, membresías de gimnasio y programas de bienestar corporativo. Cada beneficio puede configurarse con reglas de elegibilidad según antigüedad, tipo de contrato o nivel jerárquico del empleado.\n\n¿Cómo se inscriben los empleados a un beneficio?\nDurante el período de inscripción abierta, que normalmente ocurre una vez al año, los empleados reciben una notificación para revisar y seleccionar sus beneficios desde el portal de autoservicio. Fuera de ese período, solo se permite inscripción por eventos de vida calificados, como matrimonio, nacimiento de un hijo o cambio de estado civil.",
+        "score": 0.5376757979393005
+      },
+      {
+        "chunk_id": 14,
+        "text": "leja de forma separada en el detalle del recibo para mantener la transparencia del cálculo.\n\nSECCIÓN 5: ROLES, PERMISOS Y SEGURIDAD\n\n¿Qué roles de usuario existen en la plataforma?\nNexHR define cuatro roles principales: Administrador general, con acceso completo a configuración y datos sensibles; Administrador de nómina, con acceso a los módulos de pagos y compensaciones; Supervisor, con acceso a los datos de su equipo directo para aprobar licencias y ver reportes; y Empleado, con acceso únicamente a su propio perfil y autoservicio.",
+        "score": 0.5286170244216919
+      },
+      {
+        "chunk_id": 18,
+        "text": "plan empresarial. Al superar el límite, la API responde con un código de error 429 y un encabezado que indica cuándo se puede reintentar la solicitud.\n\nSECCIÓN 7: PLANES, FACTURACIÓN Y SOPORTE\n\n¿Qué planes de suscripción ofrece NexHR?\nNexHR ofrece tres planes principales: Starter, pensado para empresas de hasta 50 empleados con funcionalidades básicas de nómina y licencias; Business, que incluye gestión de beneficios y API con límites ampliados; y Enterprise, que agrega soporte prioritario, integraciones personalizadas y un gestor de cuenta dedicado.\n\n¿Cómo se factura el servicio?\nLa facturación se realiza mensualmente según la cantidad de empleados activos en la plataforma durante ese período. Los empleados dados de baja durante el mes se prorratean automáticamente en la factura siguiente. Las empresas pueden cambiar de plan en cualquier momento sin penalidad.",
+        "score": 0.5122500658035278
+      }
+    ]
+  }
+]

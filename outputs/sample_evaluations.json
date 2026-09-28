@@ -1,0 +1,27 @@
+[
+  {
+    "user_question": "¿Cómo solicito una licencia por vacaciones?",
+    "score": 10,
+    "reason": "La respuesta es completamente relevante, fiel y completa. Utiliza información directamente de los chunks recuperados (Chunk 8 y Chunk 9) para explicar el proceso de solicitud de vacaciones, incluyendo la sección en el portal, la selección de fechas, la visualización de días disponibles y el proceso de aprobación por parte del supervisor directo dentro de las 48 horas. No se introduce información externa ni se omiten detalles clave de la pregunta."
+  },
+  {
+    "user_question": "¿NexHR tiene certificación de seguridad SOC 2?",
+    "score": 10,
+    "reason": "Los chunks recuperados son relevantes y directamente relacionados con la pregunta sobre la certificación SOC 2 de NexHR. La respuesta es fiel a la información en el chunk 16, que menciona explícitamente la certificación SOC 2 Tipo II y el cumplimiento con el RGPD. Además, la respuesta cubre completamente la pregunta formulada."
+  },
+  {
+    "user_question": "¿Qué pasa si un empleado tiene un error en su pago?",
+    "score": 5,
+    "reason": "La respuesta es relevante y aborda el error en el pago, pero no se fundamenta en los chunks recuperados, ya que no hay información sobre el proceso de disputas. Además, la respuesta no cubre completamente el tema, ya que no menciona los plazos de reporte."
+  },
+  {
+    "user_question": "¿Cuáles son los límites de uso de la API?",
+    "score": 10,
+    "reason": "La respuesta es completamente relevante, ya que utiliza información directamente extraída de los chunks recuperados sobre los límites de uso de la API. Además, no presenta alucinaciones, ya que todos los datos mencionados están presentes en los chunks. La respuesta cubre la pregunta de manera completa."
+  },
+  {
+    "user_question": "¿Qué beneficios se pueden gestionar desde la plataforma?",
+    "score": 10,
+    "reason": "Los chunks recuperados son altamente relevantes y la respuesta utiliza información precisa de ellos, cubriendo completamente la pregunta sobre los beneficios gestionables en la plataforma."
+  }
+]
